@@ -69,6 +69,14 @@ public class CustomerArray<E> {
         return data[index];
     }
 
+    public E getLast() {
+        return get(size - 1);
+    }
+
+    public E getFirst() {
+        return get(0);
+    }
+
     // update data at specific index
     public void update(int index, E element) {
         if (index < 0 || index >= size) {
