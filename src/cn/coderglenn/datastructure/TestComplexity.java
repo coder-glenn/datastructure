@@ -1,8 +1,8 @@
-package cn.younggus.datastructure;
+package cn.coderglenn.datastructure;
 
-import cn.younggus.datastructure.queue.ArrayQueue;
-import cn.younggus.datastructure.queue.LoopQueue;
-import cn.younggus.datastructure.queue.Queue;
+import cn.coderglenn.datastructure.queue.ArrayQueue;
+import cn.coderglenn.datastructure.queue.LoopQueue;
+import cn.coderglenn.datastructure.queue.Queue;
 
 import java.util.Random;
 

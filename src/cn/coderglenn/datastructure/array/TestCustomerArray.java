@@ -1,4 +1,4 @@
-package cn.younggus.datastructure.array;
+package cn.coderglenn.datastructure.array;
 
 /**
  * @author Glenn.Zheng

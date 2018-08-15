@@ -1,4 +1,4 @@
-package cn.younggus.datastructure.stack.application.valid_parentheses;
+package cn.coderglenn.datastructure.stack.application.valid_parentheses;
 
 import java.util.Stack;
 

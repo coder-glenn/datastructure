@@ -1,6 +1,6 @@
-package cn.younggus.datastructure.stack;
+package cn.coderglenn.datastructure.stack;
 
-import cn.younggus.datastructure.array.CustomerArray;
+import cn.coderglenn.datastructure.array.CustomerArray;
 
 /**
  * @author Glenn.Zheng

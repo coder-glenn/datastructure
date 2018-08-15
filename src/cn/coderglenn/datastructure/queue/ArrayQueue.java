@@ -1,6 +1,6 @@
-package cn.younggus.datastructure.queue;
+package cn.coderglenn.datastructure.queue;
 
-import cn.younggus.datastructure.array.CustomerArray;
+import cn.coderglenn.datastructure.array.CustomerArray;
 
 /**
  * @author Glenn.Zheng

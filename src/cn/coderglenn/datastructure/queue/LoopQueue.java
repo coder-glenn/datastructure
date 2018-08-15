@@ -1,4 +1,4 @@
-package cn.younggus.datastructure.queue;
+package cn.coderglenn.datastructure.queue;
 
 /**
  * @author Glenn.Zheng
