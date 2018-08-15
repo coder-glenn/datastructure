@@ -1,4 +1,4 @@
-package cn.coderglenn.datastructure;
+package cn.coderglenn.datastructure.queue;
 
 import cn.coderglenn.datastructure.queue.ArrayQueue;
 import cn.coderglenn.datastructure.queue.LoopQueue;
@@ -25,6 +25,8 @@ public class TestComplexity {
 
         //ArrayQueue: 8.376114815 seconds
         //LoopQueue: 0.054720953 seconds
+
+        // for dequeue, ArrayQueue O(n^2), LoopQueue O(n), because ArrayQueue need to move element.
     }
 
     // test enqueue & dequeue
