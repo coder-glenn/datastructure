@@ -23,10 +23,15 @@ public class TestComplexity {
         double time2 = testQueue(loopQueue, operationCount);
         System.out.println("LoopQueue: " + time2 + " seconds");
 
+        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
+        double time3 = testQueue(linkedListQueue, operationCount);
+        System.out.println("LinkedListQueue: " + time3 + " seconds");
+
         //ArrayQueue: 8.376114815 seconds
         //LoopQueue: 0.054720953 seconds
+        //LinkedListQueue: 0.043456562 seconds
 
-        // for dequeue, ArrayQueue O(n^2), LoopQueue O(n), because ArrayQueue need to move element.
+        // for dequeue, ArrayQueue O(n^2), LoopQueue O(n), LinkedListQueue O(1) because ArrayQueue need to move element.
     }
 
     // test enqueue & dequeue
