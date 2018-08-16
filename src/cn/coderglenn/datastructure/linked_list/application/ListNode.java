@@ -6,9 +6,9 @@ package cn.coderglenn.datastructure.linked_list.application;
  */
 public class ListNode {
 
-   int val;
-   ListNode next;
-   ListNode(int x) {
+   public int val;
+   public ListNode next;
+   public ListNode(int x) {
        this.val = x;
    }
 
